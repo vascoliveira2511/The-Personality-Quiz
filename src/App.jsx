@@ -11,6 +11,14 @@ const questions = [
     question: "What's your favorite color?",
     options: ["Red 🔴", "Blue 🔵", "Green 🟢", "Yellow 🟡"],
   },
+  {
+    question: "What's your favorite season?",
+    options: ["Spring 🌸", "Summer 🌞", "Fall 🍂", "Winter ❄️"],
+  },
+  {
+    question: "What's your favorite animal?",
+    options: ["Dog 🐶", "Cat 🐱", "Bird 🐦", "Fish 🐟"],
+  },
 ];
 
 const elements = {
@@ -18,6 +26,14 @@ const elements = {
   "Blue 🔵": "Water",
   "Green 🟢": "Earth",
   "Yellow 🟡": "Air",
+  "Spring 🌸": "Air",
+  "Summer 🌞": "Fire",
+  "Fall 🍂": "Earth",
+  "Winter ❄️": "Water",
+  "Dog 🐶": "Earth",
+  "Cat 🐱": "Water",
+  "Bird 🐦": "Air",
+  "Fish 🐟": "Water",
 };
 
 function App() {
